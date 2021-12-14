@@ -1,0 +1,2 @@
+defmodule SmartLampTest do
+end

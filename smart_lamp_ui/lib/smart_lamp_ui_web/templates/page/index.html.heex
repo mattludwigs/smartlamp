@@ -1,0 +1,7 @@
+<ul>
+  <%= for l <- @lamps do %>
+    <li>
+      <%= link(display_name(l), to: Routes.lamp_path(@conn, :show, display_name(l))) %>
+    </li>
+  <% end %>
+</ul>
