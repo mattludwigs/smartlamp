@@ -30,6 +30,7 @@ defmodule SmartLampUi do
 
       parsed ->
         SmartLamp.toggle(parsed)
+        broadcast_button_event()
     end
   end
 
